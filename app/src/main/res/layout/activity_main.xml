@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
 
@@ -121,6 +121,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -134,12 +135,12 @@
             android:id="@+id/button4"
             android:layout_width="56dp"
             android:layout_height="32dp"
-            android:layout_weight="0.1"
-            android:text="Jan"
-            android:textSize="8sp"
             android:layout_marginLeft="7sp"
+            android:layout_weight="0.1"
             android:backgroundTint="@color/ButtonColor"
-            android:textColor="@color/black"/>
+            android:text="Jan"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -151,10 +152,10 @@
             android:layout_width="56dp"
             android:layout_height="32dp"
             android:layout_weight="0.1"
-            android:text="Feb"
-            android:textSize="8sp"
             android:backgroundTint="@color/ButtonColor"
-            android:textColor="@color/black"/>
+            android:text="Feb"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -166,10 +167,10 @@
             android:layout_width="56dp"
             android:layout_height="32dp"
             android:layout_weight="0.1"
-            android:text="Mar"
-            android:textSize="8sp"
             android:backgroundTint="@color/ButtonColor"
-            android:textColor="@color/black" />
+            android:text="Mar"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -181,10 +182,10 @@
             android:layout_width="56dp"
             android:layout_height="32dp"
             android:layout_weight="0.1"
-            android:text="Apr"
-            android:textSize="8sp"
             android:backgroundTint="@color/ButtonColor"
-            android:textColor="@color/black"/>
+            android:text="Apr"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -196,9 +197,9 @@
             android:layout_width="58dp"
             android:layout_height="36dp"
             android:layout_weight="0.1"
+            android:backgroundTint="@color/SelectedButton"
             android:text="May"
-            android:textSize="8sp"
-            android:backgroundTint="@color/SelectedButton"/>
+            android:textSize="8sp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -209,12 +210,23 @@
             android:id="@+id/button9"
             android:layout_width="56dp"
             android:layout_height="32dp"
-            android:layout_weight="0.1"
-            android:text="Jun"
             android:layout_marginRight="7sp"
-            android:textSize="8sp"
+            android:layout_weight="0.1"
             android:backgroundTint="@color/ButtonColor"
-            android:textColor="@color/black"/>
+            android:text="Jun"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="393dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:srcCompat="@drawable/scroll" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
