@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="YearColor">#C9B3AFAF</color>
+    <color name="ButtonColor">#D8E3E3E3</color>
+    <color name="SelectedButton">#CDC956C9</color>
 </resources>
